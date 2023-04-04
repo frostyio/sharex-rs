@@ -9,4 +9,6 @@ dotenv = "0.15.0"
 anyhow = "1.0.70"
 log = "0.4.17"
 simple_logger = "4.1.0"
-axum = "0.6.12"
+axum = { version = "0.6.12", features = ["multipart"] }
+rand = "0.8.5"
+mime_guess = "2.0.4"
